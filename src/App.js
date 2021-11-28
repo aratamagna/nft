@@ -15,9 +15,6 @@ function App() {
     })
   }
 
-  useEffect(() => {
-    init();
-  }, []);
   return (
     <div className="App">
       {!minted

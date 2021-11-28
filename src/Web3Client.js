@@ -35,8 +35,8 @@ export const init = async () => {
 
     const networkId = await web3.eth.net.getId();
 
-    nftContract = new web3.eth.Contract(NFTContract.abi, NFTContract.networks[networkId].address);
-    // nftContract = new web3.eth.Contract(NFTContract.abi, '0x790805aa9689A66a2C185309bf71A3D5B15E0b0B');
+    // nftContract = new web3.eth.Contract(NFTContract.abi, NFTContract.networks[networkId].address);
+    nftContract = new web3.eth.Contract(NFTContract.abi, '0x4168DB965532e7Fc57631C282D7BcF85ab598Fb9');
 
     isinit = true;
 }
